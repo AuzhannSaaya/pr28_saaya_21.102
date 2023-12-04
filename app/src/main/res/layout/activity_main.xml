@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/sky"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/sky"
+        android:src="@drawable/sky" />
+
+    <ImageView
+        android:id="@+id/sun"
+        android:layout_width="238dp"
+        android:layout_height="293dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:contentDescription="@string/sun"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sun" />
+
+    <ImageView
+        android:id="@+id/grass"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/grass"
+        android:src="@drawable/grass" />
+
+    <ImageView
+        android:id="@+id/clock"
+        android:layout_width="150dp"
+        android:layout_height="148dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="178dp"
+        android:contentDescription="@string/clock"
+        android:padding="10dp"
+        android:src="@drawable/clock" />
+
+    <ImageView
+        android:id="@+id/hour_hand"
+        android:layout_width="145dp"
+        android:layout_height="133dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="180dp"
+        android:contentDescription="@string/clock"
+        android:src="@drawable/hour_hand" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="237dp"
+        android:layout_height="257dp"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/dog" />
+
+</RelativeLayout>
